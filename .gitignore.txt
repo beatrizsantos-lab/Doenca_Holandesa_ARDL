@@ -1,0 +1,6 @@
+# Arquivos de configuração de usuário do RStudio
+.Rproj.user/
+
+# Arquivos de sessão do R
+.RData
+.Rhistory
