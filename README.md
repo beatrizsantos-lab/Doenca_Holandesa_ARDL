@@ -109,8 +109,10 @@ Os resultados econométricos **não corroboram a hipótese da Doença Holandesa*
 │   ├── ICBR.csv                    # Dados: Índice de Commodities Brasil (IC-Br)
 │   ├── INPC(Câmbio).csv            # Dados: Taxa de Câmbio Efetiva Real (INPC)
 │   └── TxJuros.csv                 # Dados: Taxa de Juros Selic
-├── script_analise_ardl.R           # Script R completo para replicação da análise
-└── README.md                       # Este arquivo
+├── .gitignore                      # Arquivo que instrui o Git a ignorar arquivos temporários
+├── Bases de Dados.Rproj            # Arquivo do Projeto RStudio (facilita a organização)
+├── DuchessDesease.R                # Script R principal com toda a análise econométrica
+└── README.md                       # Este arquivo de documentação
 ```
 
 ## ⚙️ Pré-requisitos e Configuração
