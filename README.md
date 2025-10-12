@@ -30,7 +30,7 @@ Os resultados econométricos **não corroboram a hipótese da Doença Holandesa*
 │   ├── ICBR.csv                    # Dados: Índice de Commodities Brasil (IC-Br)
 │   ├── INPC(Câmbio).csv            # Dados: Taxa de Câmbio Efetiva Real (INPC)
 │   └── TxJuros.csv                 # Dados: Taxa de Juros Selic
-├── script_analise_ardl.R           # Script R completo para replicação da análise
+├── DuchessDesease.R           # Script R completo para replicação da análise
 └── README.md                       # Este arquivo
 ```
 
@@ -57,9 +57,9 @@ install.packages(c(
     cd seu-repositorio
     ```
 
-2.  **Organize os Arquivos**: Certifique-se de que os quatro arquivos de dados (`.csv`) estejam na subpasta `dados/` ou no mesmo diretório que o script `script_analise_ardl.R`. O script atual presume que os dados estão no mesmo diretório.
+2.  **Organize os Arquivos**: Certifique-se de que os quatro arquivos de dados (`.csv`) estejam na subpasta `dados/` ou no mesmo diretório que o script `DuchessDesease.R`. O script atual presume que os dados estão no mesmo diretório.
 
-3.  **Execute o Script**: Abra o arquivo `script_analise_ardl.R` no RStudio e execute o código do início ao fim. O script é sequencial e realizará as seguintes etapas:
+3.  **Execute o Script**: Abra o arquivo `DuchessDesease.R` no RStudio e execute o código do início ao fim. O script é sequencial e realizará as seguintes etapas:
     * Carregamento e limpeza dos dados.
     * Criação das variáveis (logaritmos, dummies, interações).
     * Realização dos testes de raiz unitária (ADF).
